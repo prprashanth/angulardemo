@@ -1,0 +1,50 @@
+[
+	{
+		"name" : "Barot Bellingham",
+		"shortname" : "Barot_Bellingham",
+		"reknown" : "Royal Academy of Painting and Sculpture",
+		"bio" : "Barot has just finished his final year at Royal Academy of Painting and Sculpture"
+	},
+	{
+		"name" : "Jonathan G. Ferrar II",
+		"shortname" : "Jonathan_Ferrar",
+		"reknown" : "Artist to watch out for in 2016",
+		"bio" : "The Artist to watch out for in 2016 by London Review"
+	},
+	{
+		"name" : "Hillary Hewitt Goldwynn-Post",
+		"shortname" : "Hillary_Goldwynn",
+		"reknown" : "New York University",
+		"bio" : "Hilary is a sophomore Artist at New York University "
+	},
+	{
+		"name" : "Hassum Harrod",
+		"shortname" : "Hassum_Harrod",
+		"reknown" : "University of Central Missouri",
+		"bio" : "Hassum has just graduated from University of Central Missouri"
+	},
+	{
+		"name" : "Prashanth Kumar",
+		"shortname" : "Prashanth_Kumar",
+		"reknown" : "Swami Institute",
+		"bio" : "Prashanth has just finished his final year at SVIT"
+	},
+	{
+		"name" : "Vinesh Shakelli",
+		"shortname" : "Vinesh_Shakelli",
+		"reknown" : "VSoft Solutions",
+		"bio" : "Vinesh is a Big Data Analyst at VSoft."
+	},
+	{
+		"name" : "Ramesh Babu",
+		"shortname" : "Ramesh_Babu",
+		"reknown" : "SSS",
+		"bio" : "Ramesh is working as a senior Software Engineer"
+	},
+	{
+		"name" : "Rahul Gupta",
+		"shortname" : "Rahul_Gupta",
+		"reknown" : "Kargotech Solutions",
+		"bio" : "Rahul is a QA at Kargotech."
+	}
+]

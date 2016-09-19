@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+   <meta charset="UTF-8">
+   <title>Angular Demo</title>
+   <script src="lib/angular/angular.min.js"></script>
+   <script src="js/controllers.js"></script>
+   <link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+<div class ="main" ng-controller="myController">
+	<div class="search">
+		<h1>Artist Directory</h1>
+		<label>Search : </label>
+		<label class ="formgroup">By : 
+			<select ng-model="artistOrder">
+				<option value="name">Name</option>
+				<option value="reknown">Reknown</option>
+			</select>
+		</label>
+		<label class="formgroup">
+			<input type = "radio" ng-model="sortby" name= "sortby" checked> Ascending
+		</label>
+			<label class = "formgroup">
+			<input type = "radio" ng-model="sortby" name= "sortby" value ="reverse"> Descending
+		</label>
+		<input ng-model="query" placeholder="Search for Artists" autofocus>
+	</div>
+	<ul class="search" style="list-style-type:none">
+      <li class = "artist cf" ng-repeat="items in artists | filter: query |orderBy: artistOrder:sortby" >
+         <img ng-src="images/{{items.shortname}}.jpg" alt="Photo of {{items.name}}" ></img>
+         <div class="info">
+           <h2>{{items.name }}</h2>
+           <h3>{{items.reknown}}</h3>
+         </div>
+      </li>
+	</ul> 
+</div>
+
+</body>
+</html>
